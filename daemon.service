@@ -1,0 +1,15 @@
+# Copy this file to /etc/systemd/system/
+
+[Unit]
+Description=my service
+After=network.target
+
+[Service]
+Type=simple
+User=myuser
+WorkingDirectory=/home/myuser
+ExecStart=/home/myuser/executer.sh --option=abc
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

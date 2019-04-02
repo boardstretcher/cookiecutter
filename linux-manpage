@@ -1,0 +1,16 @@
+.\" Manpage for foo
+.TH man 8 "20 October 2018" "1.0" "foo man page"
+.SH NAME
+foo \- do amazing linux thing 
+.SH SYNOPSIS
+foo [PARAMETER]
+.SH DESCRIPTION
+foo is the most complex command known to linux admins and should never be used by anyone
+.SH OPTIONS
+foo does not take any options, nor prisoners
+.SH SEE ALSO
+yes(5)
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Board Stretcher (https://github.com/boardstretcher)
